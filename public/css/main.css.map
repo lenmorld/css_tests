@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../../src/sass/main.scss"
+	],
+	"sourcesContent": [
+		"$badass: #bada56;\r\nbody {\r\n\tmargin: 0;\r\n\tbackground-color: $badass;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AACA,AAAA,IAAI,CAAC;EACJ,MAAM,EAAE,CAAC;EACT,gBAAgB,EAHR,OAAO,GAIf"
+}

@@ -1,0 +1,30 @@
+{
+	"name": "node_workshop",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js",
+		"watch-css": "node-sass --watch --recursive --output public/css --source-map true --source-map-contents src/sass"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lenmorld/node_workshop.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lenmorld/node_workshop/issues"
+	},
+	"homepage": "https://github.com/lenmorld/node_workshop#readme",
+	"dependencies": {
+		"ejs": "^2.6.1",
+		"express": "^4.16.4",
+		"nodemon": "^1.18.10"
+	},
+	"devDependencies": {
+		"node-sass": "^4.12.0"
+	}
+}
